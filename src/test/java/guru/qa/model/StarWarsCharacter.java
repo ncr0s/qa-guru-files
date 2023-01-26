@@ -25,15 +25,12 @@ public class StarWarsCharacter {
     private Starship[] starships;
 
     public static class HomeWold {
-        @JsonSetter("name")
         private String name;
         @JsonSetter("rotation_period")
         private Integer rotationPeriod;
         @JsonSetter("orbital_period")
         private Integer orbitalPeriod;
-        @JsonSetter("diameter")
         private Double diameter;
-        @JsonSetter("climate")
         private String climate;
 
         public String getName() {
@@ -83,7 +80,6 @@ public class StarWarsCharacter {
     }
 
     public static class Starship {
-        @JsonSetter("name")
         private String name;
         @JsonSetter("starship_class")
         private String starshipClass;
