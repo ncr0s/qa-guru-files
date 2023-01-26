@@ -25,7 +25,6 @@ public class StarWarsJsonParsingTest {
         Starship xWing = new Starship()
             .setName("X-wing")
             .setStarshipClass("Starfighter");
-        System.out.println(xWing.toString());
 
         assertThat(jsonObject.getName()).isEqualTo("Luke Skywalker");
         assertThat(jsonObject.getHeight()).isEqualTo(172);
