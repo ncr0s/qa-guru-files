@@ -1,0 +1,37 @@
+{
+	"name": "Luke Skywalker",
+	"height": 172,
+	"mass": 77.5,
+	"hair_color": "blond",
+	"skin_color": "fair",
+	"eye_color": "blue",
+	"birth_year": "19BBY",
+	"gender": "male",
+	"is_jedi": true,
+	"home_world": {
+		"name": "Tatooine",
+		"rotation_period": 23,
+		"orbital_period": 304,
+		"diameter": 10464.95,
+		"climate": "arid"
+	},
+	"films": [
+		"A New Hope",
+		"The Empire Strikes Back",
+		"Return of the Jedi",
+		"Revenge of the Sith",
+		"The Force Awakens",
+		"The Last Jedi",
+		"The Rise of Skywalker"
+	],
+	"starships": [
+		{
+			"name": "X-wing",
+			"starship_class": "Starfighter"
+		},
+		{
+			"name": "Imperial shuttle",
+			"starship_class": "Armed government transport"
+		}
+	]
+}
